@@ -1,18 +1,16 @@
 from Secondary import game
 
-list_fruits = ['apple', 'banana', 'peach', 'pear', 'strawberry', 'melon', 'watermelon']
-list_fruits_translated = ['manzana', 'platano', 'melocoton', 'pera', 'fresa', 'melon', 'sandia']
 
-list_transport = ['car', 'bike', 'motorbike', 'bus', 'train', 'truck', 'plane', 'ship']
-list_transport_translated = ['coche', 'bicicleta', 'moto', 'autobus', 'tren', 'camion', 'avion', 'barco']
+lang = ""
 
-game_category = ''
+while lang != "spanish" and lang != "polish":
+    lang = input("To what language do you want to translate? ")
 
-while game_category != 'fruits' and game_category != 'transport':
-    game_category = input("Choose a category: fruits or transport.\n")
+results = game(lang)
+score = results[0]
+perfect_score = results[1]
 
-if game_category == 'fruits':
-    game(list_fruits, list_fruits_translated)
-
-elif game_category == 'transport':
-    game(list_transport, list_transport_translated)
+if perfect_score:
+    print(f"Your final score is {score}. Congrats, you are an ace!")
+else:
+    print(f"Your final score is {score}")

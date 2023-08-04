@@ -1,0 +1,46 @@
+{
+  "fruit": {
+    "apple": {
+      "translation": {
+        "spanish": "manzana",
+        "polish": "jablko"
+      }
+    },
+    "banana": {
+      "translation": {
+        "spanish": "platano",
+        "polish": "banan"
+      }
+    },
+    "peach": {
+      "translation": {
+        "spanish": "melocoton",
+        "polish": "brzoskwinia"
+      }
+    },
+    "pear": {
+      "translation": {
+        "spanish": "pera",
+        "polish": "gruszka"
+      }
+    },
+    "strawberry": {
+      "translation": {
+        "spanish": "fresa",
+        "polish": "truszkawka"
+      }
+    },
+    "melon": {
+      "translation": {
+        "spanish": "melon",
+        "polish": "melon"
+      }
+    },
+    "watermelon": {
+      "translation": {
+        "spanish": "sandia",
+        "polish": "arbus"
+      }
+    }
+  }
+}

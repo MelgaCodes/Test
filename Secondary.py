@@ -1,32 +1,27 @@
 from random import randint
+import json
 
-
-def game(the_list, the_translated_list):
+def game(lang):
 
     score = 0
-    control_1 = 1
-    while control_1 == 1:
-        number_of_words = input("How many words do you want for your test?\n")
-        if number_of_words.isnumeric():
-            number_of_words = int(number_of_words)
-            popper = number_of_words
-            control_1 = 0
+    perfect_score = False
 
-    for _ in range(0, number_of_words):
-        rand_num = randint(0, popper-1)
-        answer = input(f"What is the translation of {the_list[rand_num]}\n")
-        if answer.lower() == the_translated_list[rand_num]:
+    with open("data.json") as file:
+        data = json.load(file)
+
+    fruit = list(data["fruit"])
+
+    for item in fruit:
+        local_dict = data["fruit"][item]
+        user_choice = input("What is the translation of " + item + "\n")
+        if user_choice == local_dict["translation"][lang]:
             print("That is correct!\n")
             score += 1
-            the_list.pop(rand_num)
-            the_translated_list.pop(rand_num)
-            popper -= 1
 
         else:
-            print("Not correct :(\n")
-            the_list.pop(rand_num)
-            the_translated_list.pop(rand_num)
-            popper -= 1
+            print("That is not correct\n")
 
-    print(f"Your final score is {score}")
-    return
+    if score == len(fruit):
+        perfect_score = True
+
+    return [score, perfect_score]
