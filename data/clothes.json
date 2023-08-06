@@ -1,0 +1,46 @@
+{
+  "clothes": {
+    "t-shirt": {
+      "translation": {
+        "spanish": "camiseta",
+        "polish": "koszulka"
+      }
+    },
+    "shirt": {
+      "translation": {
+        "spanish": "camisa",
+        "polish": "koszula"
+      }
+    },
+    "trousers": {
+      "translation": {
+        "spanish": "pantalon",
+        "polish": "spodnie"
+      }
+    },
+    "sock": {
+      "translation": {
+        "spanish": "calcetin",
+        "polish": "skarpet"
+      }
+    },
+    "scarf": {
+      "translation": {
+        "spanish": "bufanda",
+        "polish": "szalik"
+      }
+    },
+    "coat": {
+      "translation": {
+        "spanish": "abrigo",
+        "polish": "plaszcz"
+      }
+    },
+    "jacket": {
+      "translation": {
+        "spanish": "chaqueta",
+        "polish": "kurtka"
+      }
+    }
+  }
+}
