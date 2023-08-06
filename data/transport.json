@@ -1,0 +1,46 @@
+{
+  "transport": {
+    "car": {
+      "translation": {
+        "spanish": "coche",
+        "polish": "samochod"
+      }
+    },
+    "bike": {
+      "translation": {
+        "spanish": "bicicleta",
+        "polish": "rower"
+      }
+    },
+    "motorbike": {
+      "translation": {
+        "spanish": "moto",
+        "polish": "motor"
+      }
+    },
+    "plane": {
+      "translation": {
+        "spanish": "avion",
+        "polish": "samolot"
+      }
+    },
+    "train": {
+      "translation": {
+        "spanish": "tren",
+        "polish": "pociag"
+      }
+    },
+    "tram": {
+      "translation": {
+        "spanish": "tranvia",
+        "polish": "tramwaj"
+      }
+    },
+    "bus": {
+      "translation": {
+        "spanish": "autobus",
+        "polish": "autobus"
+      }
+    }
+  }
+}
