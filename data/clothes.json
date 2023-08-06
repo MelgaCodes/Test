@@ -41,6 +41,30 @@
         "spanish": "chaqueta",
         "polish": "kurtka"
       }
+    },
+    "cap": {
+      "translation": {
+        "spanish": "gorro",
+        "polish": "czapka"
+      }
+    },
+    "hat": {
+      "translation": {
+        "spanish": "sombrero",
+        "polish": "kapelusz"
+      }
+    },
+    "skirt": {
+      "translation": {
+        "spanish": "falda",
+        "polish": "spodnica"
+      }
+    },
+    "dress": {
+      "translation": {
+        "spanish": "vestido",
+        "polish": "sukienka"
+      }
     }
   }
 }

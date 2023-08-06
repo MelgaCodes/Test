@@ -1,5 +1,5 @@
 {
-  "fruit": {
+  "fruits": {
     "apple": {
       "translation": {
         "spanish": "manzana",
@@ -40,6 +40,36 @@
       "translation": {
         "spanish": "sandia",
         "polish": "arbuz"
+      }
+    },
+    "orange": {
+      "translation": {
+        "spanish": "naranja",
+        "polish": "pomarancza"
+      }
+    },
+    "tangerine": {
+      "translation": {
+        "spanish": "mandarina",
+        "polish": "mandarynka"
+      }
+    },
+    "grape": {
+      "translation": {
+        "spanish": "uva",
+        "polish": "winogrono"
+      }
+    },
+    "coconut": {
+      "translation": {
+        "spanish": "coco",
+        "polish": "kokos"
+      }
+    },
+    "pineapple": {
+      "translation": {
+        "spanish": "piña",
+        "polish": "ananas"
       }
     }
   }

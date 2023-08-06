@@ -36,10 +36,40 @@
         "polish": "tramwaj"
       }
     },
-    "bus": {
+    "van": {
       "translation": {
-        "spanish": "autobus",
-        "polish": "autobus"
+        "spanish": "furgoneta",
+        "polish": "furgon"
+      }
+    },
+    "yacht": {
+      "translation": {
+        "spanish": "yate",
+        "polish": "jacht"
+      }
+    },
+    "rocket": {
+      "translation": {
+        "spanish": "cohete",
+        "polish": "rakieta"
+      }
+    },
+    "helicopter": {
+      "translation": {
+        "spanish": "helicoptero",
+        "polish": "helikopter"
+      }
+    },
+    "tractor": {
+      "translation": {
+        "spanish": "tractor",
+        "polish": "traktor"
+      }
+    },
+    "ship": {
+      "translation": {
+        "spanish": "barco",
+        "polish": "statek"
       }
     }
   }
