@@ -3,7 +3,7 @@
     "car": {
       "translation": {
         "spanish": "coche",
-        "polish": "samochod"
+        "polish": "samochód"
       }
     },
     "bike": {
@@ -20,19 +20,19 @@
     },
     "plane": {
       "translation": {
-        "spanish": "avion",
+        "spanish": "avión",
         "polish": "samolot"
       }
     },
     "train": {
       "translation": {
         "spanish": "tren",
-        "polish": "pociag"
+        "polish": "pociąg"
       }
     },
     "tram": {
       "translation": {
-        "spanish": "tranvia",
+        "spanish": "tranvía",
         "polish": "tramwaj"
       }
     },
@@ -56,7 +56,7 @@
     },
     "helicopter": {
       "translation": {
-        "spanish": "helicoptero",
+        "spanish": "helicóptero",
         "polish": "helikopter"
       }
     },

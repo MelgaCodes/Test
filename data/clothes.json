@@ -14,13 +14,13 @@
     },
     "trousers": {
       "translation": {
-        "spanish": "pantalon",
+        "spanish": "pantalones",
         "polish": "spodnie"
       }
     },
     "sock": {
       "translation": {
-        "spanish": "calcetin",
+        "spanish": "calcetín",
         "polish": "skarpet"
       }
     },
@@ -33,7 +33,7 @@
     "coat": {
       "translation": {
         "spanish": "abrigo",
-        "polish": "plaszcz"
+        "polish": "płaszcz"
       }
     },
     "jacket": {
@@ -57,7 +57,7 @@
     "skirt": {
       "translation": {
         "spanish": "falda",
-        "polish": "spodnica"
+        "polish": "spódnica"
       }
     },
     "dress": {

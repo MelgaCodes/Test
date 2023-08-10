@@ -15,7 +15,7 @@ def game(lang, topic):
     for i in range(0, 10):
         rand_item = random.choice(the_list)
         local_dict = data[f"{topic}"][rand_item]
-        user_choice = input("What is the translation of " + rand_item + "\n")
+        user_choice = input("What is the translation of " + rand_item + "\n").lower()
         the_list.remove(rand_item)
 
         if user_choice == local_dict["translation"][lang]:

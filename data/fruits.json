@@ -3,18 +3,18 @@
     "apple": {
       "translation": {
         "spanish": "manzana",
-        "polish": "jablko"
+        "polish": "jabłko"
       }
     },
     "banana": {
       "translation": {
-        "spanish": "platano",
+        "spanish": "plátano",
         "polish": "banan"
       }
     },
     "peach": {
       "translation": {
-        "spanish": "melocoton",
+        "spanish": "melocotón",
         "polish": "brzoskwinia"
       }
     },
@@ -32,20 +32,20 @@
     },
     "melon": {
       "translation": {
-        "spanish": "melon",
+        "spanish": "melón",
         "polish": "melon"
       }
     },
     "watermelon": {
       "translation": {
-        "spanish": "sandia",
+        "spanish": "sandía",
         "polish": "arbuz"
       }
     },
     "orange": {
       "translation": {
         "spanish": "naranja",
-        "polish": "pomarancza"
+        "polish": "pomarańcza"
       }
     },
     "tangerine": {
